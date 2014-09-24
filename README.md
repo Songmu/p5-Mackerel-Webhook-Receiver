@@ -1,14 +1,23 @@
 # NAME
 
-Mackerel::Webhook::Receiver - It's new $module
+Mackerel::Webhook::Receiver - Mackerel webhook receiving server
 
 # SYNOPSIS
 
     use Mackerel::Webhook::Receiver;
+    my $receiver = Mackerel::Webhook::Receiver->new;
+    $receiver->on(alert => sub {
+        my ($event, $req) = @_;
+        warn $event->event;
+        my $payload = $event->payload;
+    });
+    my $psgi = $receiver->to_app;
+    $receiver->run;
 
 # DESCRIPTION
 
-Mackerel::Webhook::Receiver is ...
+Mackerel::Webhook::Receiver is utility for creating a server receiving
+Mackerel webhooks and processing something jobs.
 
 # LICENSE
 
