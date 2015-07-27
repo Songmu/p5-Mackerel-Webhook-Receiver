@@ -79,7 +79,7 @@ __END__
 
 =head1 NAME
 
-Mackerel::Webhook::Receiver - Mackerel webhook receiving server
+Mackerel::Webhook::Receiver - Mackerel Webhook receiving server
 
 =head1 SYNOPSIS
 
@@ -96,7 +96,7 @@ Mackerel::Webhook::Receiver - Mackerel webhook receiving server
 =head1 DESCRIPTION
 
 Mackerel::Webhook::Receiver is utility for creating a server receiving
-Mackerel webhooks and processing something jobs.
+Mackerel Webhooks and processing something jobs.
 
 =head1 LICENSE
 

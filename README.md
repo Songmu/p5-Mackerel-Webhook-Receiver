@@ -1,6 +1,6 @@
 # NAME
 
-Mackerel::Webhook::Receiver - Mackerel webhook receiving server
+Mackerel::Webhook::Receiver - Mackerel Webhook receiving server
 
 # SYNOPSIS
 
@@ -17,7 +17,7 @@ Mackerel::Webhook::Receiver - Mackerel webhook receiving server
 # DESCRIPTION
 
 Mackerel::Webhook::Receiver is utility for creating a server receiving
-Mackerel webhooks and processing something jobs.
+Mackerel Webhooks and processing something jobs.
 
 # LICENSE
 
